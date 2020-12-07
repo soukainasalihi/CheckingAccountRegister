@@ -132,13 +132,13 @@ void openOutputFile()
 
 
 /************************************************************
-*					setInitialBalance():					*
-* This funtion will set the balance of the account ask for *
+* setInitialBalance():				  	     *
+* This funtion will set the balance of the account ask for   *
 * transaction date, but if the user hits enter only, it will *
-* show the current date.The description will be by         *
-* default "starting balance". Output data and write it in  *
-* a file if the user have already created one.		     	*
-*															*
+* show the current date.The description will be by           *
+* default "starting balance". Output data and write it in    *
+* a file if the user have already created one.		     *
+*							     *
 ************************************************************/
 void setInitialBalance(BankAccount &myAccount, char comand){
 	string date;
@@ -181,11 +181,11 @@ void setInitialBalance(BankAccount &myAccount, char comand){
 *                                                           *
 * This funtion will allow the user to withdraw the money    *
 * from the account. ask for transaction date, but if the    *
-*  user  hits enter only it will show the current date.      *
+*  user  hits enter only it will show the current date.     *
 * The description will be whatever the user enters. Ask for *
 *  withdrawal amount. Output data and write it in a file if *
-* the user have already created one.						*
-*															*
+* the user have already created one.			    *
+*							    *
 ************************************************************/
 void withdraw(BankAccount &myAccount, char comand){
 	string date, transactionInfo;
@@ -232,11 +232,11 @@ void withdraw(BankAccount &myAccount, char comand){
 *                                                           *
 *  This funtion will allow the user to deposit the money    *
 *   to the account. ask for transaction date, but if the    *
-*  user  hits only enter it will show the current date.      *
+*  user  hits only enter it will show the current date.     *
 *  The description will be whatever the user enters. Ask    *
 *  for deposit amount. Output data and write it in a file   *
-*  if the user have already created one.					*
-*															*
+*  if the user have already created one.		    *
+*							    *
 ************************************************************/
 void deposit(BankAccount &myAccount, char comand){
 	string date, transactionInfo;
@@ -282,11 +282,11 @@ void deposit(BankAccount &myAccount, char comand){
 *                                                           *
 * This funtion will allow the user to write acheck.choose   *
 * the sequential check number. ask for transaction date,    *
-* but if the user hits enter it will show the current  *
+* but if the user hits enter it will show the current       *
 * date. The the payee info will be whatever the user enters.*
 * Output data and write it in a file if the user have       *
-*  already created one.					                 	*
-*															*
+*  already created one.					    *
+*							    *
 ************************************************************/
 void writeCheck(BankAccount &myAccount){
 	int checkNumber, nextCheckNum;
